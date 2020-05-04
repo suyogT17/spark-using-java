@@ -1,0 +1,20 @@
+package com.sparkusingjava.applications;
+
+import com.sparkusingjava.helper.JSONLinesParser;
+
+public class DataIngestionDemoApplication {
+
+	public static void main(String[] args) {
+		
+//		InferCSVSchema parser = new InferCSVSchema();
+//		parser.printSchema();
+		
+//		DefineCSVSchema parser2 = new DefineCSVSchema();
+//		parser2.printDefinedSchema();
+//		
+		JSONLinesParser parser3 = new JSONLinesParser();
+		parser3.parseJsonLines();
+
+	}
+
+}
